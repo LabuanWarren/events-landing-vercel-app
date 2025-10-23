@@ -1,0 +1,86 @@
+import React from 'react';
+import { CTAButton } from './CTAButton';
+
+export const WhyTypid = () => {
+  return (
+    <section className="py-28 px-16 md:py-28 md:px-16 py-16 px-8 bg-white">
+      <div className="flex flex-row md:flex-row flex-col justify-start items-start gap-20 md:gap-20 gap-10 max-w-[1280px] mx-auto">
+        <h2 className="text-left align-top text-5xl md:text-5xl text-4xl font-['DM_Sans'] font-bold leading-[1.2] text-black flex-1 max-w-[500px] m-0">
+          Why launch your events with Typid?
+        </h2>
+        <div className="flex flex-col justify-start items-start gap-7 flex-1">
+          <p className="text-left align-top text-lg md:text-lg text-base font-['Roboto'] leading-[150%] text-black m-0">
+            The smarter way to host, sell, and manage events — built for organizers 
+            who want clarity, control, and creative freedom. Typid Events brings your 
+            entire workflow together: from event creation and Tycket sales to analytics, 
+            vouchers, and booth design — everything runs seamlessly in one connected system.
+          </p>
+          <CTAButton label="Launch Your Event Now" />
+        </div>
+      </div>
+      
+      <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 grid-cols-1 gap-10 md:gap-10 gap-8 mt-20 md:mt-20 mt-12 max-w-[1280px] mx-auto">
+        <div className="flex flex-col gap-4">
+          <div className="w-12 h-12 flex items-center justify-center mb-2">
+            <img src="/connected-icon.svg" alt="Connected" className="w-full h-full object-contain" />
+          </div>
+          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+            Everything Connected
+          </h3>
+          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+            No more juggling between tools. Events, Tyckets, discounts, and analytics — all work seamlessly within one platform.
+          </p>
+        </div>
+        
+        <div className="flex flex-col gap-4">
+          <div className="w-12 h-12 flex items-center justify-center mb-2">
+            <img src="/organizers-icon.svg" alt="Organizers" className="w-full h-full object-contain" />
+          </div>
+          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+            Designed for Organizers
+          </h3>
+          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+            Built for creators who value clarity and control. Every feature is made to simplify your workflow, not complicate it.
+          </p>
+        </div>
+        
+        <div className="flex flex-col gap-4">
+          <div className="w-12 h-12 flex items-center justify-center mb-2">
+            <img src="/insights-icon.svg" alt="Insights" className="w-full h-full object-contain" />
+          </div>
+          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+            Real-Time Insights
+          </h3>
+          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+            Track every sale, attendee, and voucher redemption as it happens. Make decisions backed by live data.
+          </p>
+        </div>
+        
+        <div className="flex flex-col gap-4">
+          <div className="w-12 h-12 flex items-center justify-center mb-2">
+            <img src="/Tycket-booth.svg" alt="Booth" className="w-full h-full object-contain" />
+          </div>
+          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+            Customizable Tycket Booth
+          </h3>
+          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+            Your brand deserves to stand out. Design your Tycket Booth the way you want — from colors to layout.
+          </p>
+        </div>
+        
+        <div className="flex flex-col gap-4">
+          <div className="w-12 h-12 flex items-center justify-center mb-2">
+            <img src="/Sheild.svg" alt="Secure" className="w-full h-full object-contain" />
+          </div>
+          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+            Secure Payments with Typid Pay
+          </h3>
+          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+            Every transaction runs through Typid Pay, ensuring fast, safe, and transparent payment processing.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
