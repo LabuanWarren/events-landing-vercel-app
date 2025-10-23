@@ -22,16 +22,15 @@ export const Hero = () => {
           <img 
             src="/Dashboard.webp" 
             alt="Dashboard overview" 
-            className="absolute top-0 left-0 h-[508px] md:h-[508px] h-auto w-auto max-w-[723px] md:w-auto md:max-h-[300px] w-full object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)]"
+            className="absolute top-0 left-0 w-[723px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)]"
           />
           <img 
             src="/DashboardModal.webp" 
             alt="Modal overview" 
-            className="absolute bottom-0 left-0 h-[286px] md:h-[286px] h-auto w-auto max-w-[297px] md:w-auto md:max-w-[200px] md:max-h-[180px] object-contain drop-shadow-[0_10px_30px_rgba(0,0,0,0.12)]"
+            className="absolute bottom-0 left-0 w-[297px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)]"
           />
         </div>
       </div>
     </div>
   );
 };
-
