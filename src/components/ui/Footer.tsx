@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const Footer = () => {
@@ -9,7 +8,7 @@ export const Footer = () => {
           <div className="flex flex-row justify-start items-start">
             <div className="h-auto w-full flex items-center justify-center rounded">
               <img 
-                src="/public/Logo/GradientLogo.svg" 
+                src="/Logo/GradientLogo.svg" 
                 alt="Typid Logo" 
                 className="h-auto w-full object-contain"
               />

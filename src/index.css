@@ -1,6 +1,7 @@
 /** @import must precede all other statements */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Roboto:wght@400&display=swap");
 
+/* Tailwind directives - processed by PostCSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
