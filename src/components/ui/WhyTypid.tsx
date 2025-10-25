@@ -1,15 +1,14 @@
-import React from 'react';
 import { CTAButton } from './CTAButton';
 
 export const WhyTypid = () => {
   return (
-    <section className="py-28 px-16 md:py-28 md:px-16 py-16 px-8 bg-white">
-      <div className="flex flex-row md:flex-row flex-col justify-start items-start gap-20 md:gap-20 gap-10 max-w-[1280px] mx-auto">
-        <h2 className="text-left align-top text-5xl md:text-5xl text-4xl font-['DM_Sans'] font-bold leading-[1.2] text-black flex-1 max-w-[500px] m-0">
+    <section className="py-16 px-8 bg-white">
+      <div className="flex flex-col md:flex-row justify-start items-start gap-10 max-w-[1280px] mx-auto">
+        <h2 className="text-left align-top text-4xl md:text-5xl font-['DM_Sans'] font-bold leading-[1.2] text-black flex-1 max-w-[500px] m-0">
           Why launch your events with Typid?
         </h2>
-        <div className="flex flex-col justify-start items-start gap-7 flex-1">
-          <p className="text-left align-top text-lg md:text-lg text-base font-['Roboto'] leading-[150%] text-black m-0">
+        <div className="flex flex-col justify-start items-start gap-7 flex-1 mt-6 md:mt-0">
+          <p className="text-left align-top text-base md:text-lg font-['Roboto'] leading-[150%] text-black m-0">
             The smarter way to host, sell, and manage events — built for organizers 
             who want clarity, control, and creative freedom. Typid Events brings your 
             entire workflow together: from event creation and Tycket sales to analytics, 
@@ -19,12 +18,12 @@ export const WhyTypid = () => {
         </div>
       </div>
       
-      <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 grid-cols-1 gap-10 md:gap-10 gap-8 mt-20 md:mt-20 mt-12 max-w-[1280px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-[1280px] mx-auto">
         <div className="flex flex-col gap-4">
           <div className="w-12 h-12 flex items-center justify-center mb-2">
             <img src="/connected-icon.svg" alt="Connected" className="w-full h-full object-contain" />
           </div>
-          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+          <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Everything Connected
           </h3>
           <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
@@ -36,7 +35,7 @@ export const WhyTypid = () => {
           <div className="w-12 h-12 flex items-center justify-center mb-2">
             <img src="/organizers-icon.svg" alt="Organizers" className="w-full h-full object-contain" />
           </div>
-          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+          <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Designed for Organizers
           </h3>
           <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
@@ -48,7 +47,7 @@ export const WhyTypid = () => {
           <div className="w-12 h-12 flex items-center justify-center mb-2">
             <img src="/insights-icon.svg" alt="Insights" className="w-full h-full object-contain" />
           </div>
-          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+          <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Real-Time Insights
           </h3>
           <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
@@ -60,7 +59,7 @@ export const WhyTypid = () => {
           <div className="w-12 h-12 flex items-center justify-center mb-2">
             <img src="/Tycket-booth.svg" alt="Booth" className="w-full h-full object-contain" />
           </div>
-          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+          <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Customizable Tycket Booth
           </h3>
           <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
@@ -72,7 +71,7 @@ export const WhyTypid = () => {
           <div className="w-12 h-12 flex items-center justify-center mb-2">
             <img src="/Sheild.svg" alt="Secure" className="w-full h-full object-contain" />
           </div>
-          <h3 className="font-['DM_Sans'] text-2xl font-bold text-black m-0">
+          <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Secure Payments with Typid Pay
           </h3>
           <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">

@@ -1,11 +1,10 @@
-import React from 'react';
 import { CTAButton } from './CTAButton';
 
 export const Hero = () => {
   return (
     <div className="flex flex-col justify-start items-center p-4 gap-20 h-[100vh]">
       <div className="rounded-3xl flex overflow-hidden flex-row md:flex-row flex-col justify-center bg-[#f8f9fb] w-full h-full">
-        <div className="flex flex-col justify-center items-start p-12 md:p-12 gap-8">
+        <div className="flex flex-col justify-center items-start p-12 md:p-12 gap-8 animate-fade-in-up">
           <div className="flex max-w-[600px] flex-col justify-start items-start gap-6">
             <h1 className="text-left text-7xl md:text-7xl text-5xl font-medium font-['DM_Sans'] leading-[1.2] text-black">
               Run events that feel effortless
@@ -22,12 +21,12 @@ export const Hero = () => {
           <img 
             src="/Dashboard.webp" 
             alt="Dashboard overview" 
-            className="absolute top-20 left-0 w-[723px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)]"
+            className="absolute top-20 left-0 w-[723px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed"
           />
           <img 
             src="/DashboardModal.webp" 
             alt="Modal overview" 
-            className="absolute bottom-0 left-0 w-[297px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)]"
+            className="absolute bottom-0 left-0 w-[297px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed-more"
           />
         </div>
       </div>

@@ -9,44 +9,44 @@ interface FeatureCardProps {
 
 export const FeatureCard: React.FC<FeatureCardProps> = ({ badge, title, features, image }) => {
   return (
-    <div className="rounded-3xl border border-[#dcdfe9] flex flex-row md:flex-row flex-col justify-start items-center bg-white shadow-[0_12px_16px_-4px_rgba(26,77,164,0.08),0_4px_6px_-2px_rgba(3,31,81,0.03),0_2px_2px_-1px_rgba(0,34,93,0.04)] overflow-hidden max-w-[1280px] w-full">
-      <div className="flex flex-col justify-start items-start px-[4.5rem] md:px-[4.5rem] p-8 gap-6 flex-1 min-w-0">
-        <div className="flex flex-col justify-start items-start gap-8">
-          <div className="flex flex-row justify-center items-center pr-[4.5rem] gap-6">
-            <div className="text-left align-top text-xs font-['DM_Sans'] tracking-[4.8px] leading-[18px] text-black">
+    <div className="rounded-3xl border border-[#dcdfe9] flex flex-col md:flex-row justify-start items-center bg-white shadow-[0_12px_16px_-4px_rgba(26,77,164,0.08),0_4px_6px_-2px_rgba(3,31,81,0.03),0_2px_2px_-1px_rgba(0,34,93,0.04)] overflow-hidden w-full max-w-[95vw] md:max-w-[1280px]">
+      <div className="flex flex-col justify-start items-start px-8 md:px-[4.5rem] p-6 md:p-8 gap-4 md:gap-6 flex-1">
+        <div className="flex flex-col justify-start items-start gap-4 md:gap-8">
+          <div className="flex flex-row justify-start items-center pr-8 md:pr-[4.5rem] gap-3 md:gap-6">
+            <div className="text-left text-xs font-['DM_Sans'] tracking-[3px] md:tracking-[4.8px] leading-[18px] text-black">
               {badge}
             </div>
-            <div className="flex flex-row justify-start items-center gap-2.5">
-              <div className="h-px w-[212px] md:w-[212px] w-[100px] bg-[#7d89af]" />
+            <div className="flex flex-row justify-start items-center gap-1.5 md:gap-2.5">
+              <div className="h-px w-[100px] md:w-[212px] bg-[#7d89af]" />
               <div className="h-3 w-3 border border-[#7d89af] rounded-full" />
             </div>
           </div>
-          <div className="text-left align-top text-4xl md:text-4xl text-3xl font-['DM_Sans'] tracking-[-0.72px] leading-[44px] md:leading-[44px] leading-9 text-black font-bold">
+          <div className="text-left text-3xl md:text-4xl font-['DM_Sans'] tracking-[-0.5px] md:tracking-[-0.72px] leading-9 md:leading-[44px] text-black font-bold">
             {title}
           </div>
         </div>
-        <div className="flex flex-col justify-start items-start gap-3">
+        <div className="flex flex-col justify-start items-start gap-2 md:gap-3">
           {features.map((feature, index) => (
-            <div key={index} className="flex flex-row justify-start items-start gap-3">
+            <div key={index} className="flex flex-row justify-start items-start gap-2 md:gap-3">
               <div className="flex flex-row justify-start items-center p-1">
-                <img src="/bullet-asterisk.svg" alt="Feature bullet" className="w-[22px] h-[22px]" />
+                <img src="/bullet-asterisk.svg" alt="Feature bullet" className="w-5 h-5 md:w-[22px] md:h-[22px]" />
               </div>
-              <div className="text-left align-top text-base font-['DM_Sans'] leading-6 text-black">
+              <div className="text-left text-base font-['DM_Sans'] leading-6 text-black">
                 {feature}
               </div>
             </div>
           ))}
         </div>
       </div>
-      <div className="md:flex hidden flex-col justify-start items-start gap-3">
+      <div className="md:flex hidden flex-col justify-start items-start gap-2 md:gap-3">
         {Array(22).fill(0).map((_, i) => (
-          <div key={i} className="h-[17px] w-px bg-[#dcdfe9]" />
+          <div key={i} className="h-[13px] md:h-[17px] w-px bg-[#dcdfe9]" />
         ))}
       </div>
       <img 
         src={image} 
         alt={`${badge} feature`} 
-        className="w-[696px] md:w-[696px] w-full h-auto max-h-[640px] md:max-h-[640px] max-h-[400px] object-contain block flex-[0_0_696px] md:flex-[0_0_696px] flex-[0_0_auto]"
+        className="w-full md:w-[696px] h-auto max-h-[300px] md:max-h-[640px] object-contain block flex-[0_0_auto] md:flex-[0_0_696px]"
       />
     </div>
   );
