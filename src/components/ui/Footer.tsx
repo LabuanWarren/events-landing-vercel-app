@@ -7,11 +7,11 @@ export const Footer = () => {
       <div className="flex flex-col justify-start items-center gap-20 md:gap-20 gap-12 max-w-[1280px] w-full">
         <div className="flex flex-col justify-start items-center gap-8">
           <div className="flex flex-row justify-start items-start">
-            <div className="h-8 w-[108px] flex items-center justify-center rounded">
+            <div className="h-auto w-full flex items-center justify-center rounded">
               <img 
-                src="/typid-logo-white.svg" 
+                src="/public/Logo/GradientLogo.svg" 
                 alt="Typid Logo" 
-                className="h-[25px] w-[102px] object-contain"
+                className="h-auto w-full object-contain"
               />
             </div>
           </div>

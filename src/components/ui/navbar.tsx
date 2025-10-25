@@ -41,9 +41,9 @@ export const Navbar = () => {
         <header className={`flex-col justify-between items-center w-full pl-4 pr-2 py-2 rounded-[1.25rem] shadow-[0_2px_10px_rgba(0,0,0,0.05)] backdrop-blur-lg transition-all duration-300 ${
           isInFeaturesSection ? 'bg-brand-950/20' : 'bg-white/40'
         }`}>
-          <nav className="flex flex-row justify-between items-center w-full">
+          <nav className="flex flex-row justify-between items-center w-[full]">
             {/* Logo */}
-            <div className="flex items-center">
+            <div className="flex items-center w-[182px]">
               <img 
                 src={isInFeaturesSection ? "/typid-logo-white.svg" : "/typid-logo.svg"} 
                 alt="Typid Logo" 
@@ -90,7 +90,7 @@ export const Navbar = () => {
               <button className={`rounded-lg px-5 py-2.5 border text-base font-['DM_Sans'] font-medium cursor-pointer transition-all duration-300 ${
                 isInFeaturesSection 
                   ? 'bg-transparent border-white text-white hover:bg-white/10' 
-                  : 'bg-white border-gray-200 text-black hover:bg-[#f8f9fb]'
+                  : 'bg-white border-gray-cool-200 text-black hover:bg-[#f8f9fb]'
               }`}>
                 Login
               </button>

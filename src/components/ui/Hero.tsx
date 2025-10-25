@@ -9,8 +9,8 @@ export const Hero = () => {
             <h1 className="text-left text-7xl md:text-7xl text-5xl font-medium font-['DM_Sans'] leading-[1.2] text-black">
               Run events that feel effortless
             </h1>
-            <p className="text-left text-lg font-['DM_Sans'] leading-7 text-black max-w-[600px]">
-              From setup to sales, Events by Typid gives you the power to create, manage, and customize every part of your event experience —  all in one dashboard.
+            <p className="text-left text-lg font-['DM_Sans'] leading-7 text-gray-cool-700 max-w-[600px]">
+            Events by Typid lets you create, manage, and customize your entire event experience in one dashboard.
             </p>
           </div>
           <div className="flex flex-row justify-start items-start gap-4">
