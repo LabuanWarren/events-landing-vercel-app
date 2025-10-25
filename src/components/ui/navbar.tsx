@@ -39,7 +39,7 @@ export const Navbar = () => {
     <>
       <div className="fixed p-4 top-0 left-0 flex w-full z-[1000] px-6 py-6">
         <header className={`flex-col justify-between items-center w-full pl-4 pr-2 py-2 rounded-[1.25rem] shadow-[0_2px_10px_rgba(0,0,0,0.05)] backdrop-blur-lg transition-all duration-300 ${
-          isInFeaturesSection ? 'bg-brand-950/80' : 'bg-white/40'
+          isInFeaturesSection ? 'bg-brand-950/20' : 'bg-white/40'
         }`}>
           <nav className="flex flex-row justify-between items-center w-full">
             {/* Logo */}
