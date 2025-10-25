@@ -97,17 +97,17 @@ export const Features = () => {
     <section className="rounded-[2rem] md:rounded-[2rem] rounded-[2rem] flex flex-col justify-start items-center py-28 px-16 md:py-28 md:px-16 py-16 px-8 gap-20 bg-gradient-to-b from-[#011C25] to-[#00C1DB]">
       <div ref={containerRef} className="flex flex-col justify-start items-center max-w-[1200px] w-full">
         <div className="flex flex-col justify-start items-center gap-4 mb-16">
-          <div className="flex flex-row justify-start items-center gap-2">
-            <div className="h-3 w-3 bg-[#00C1DB] rounded-full" />
-            <span className="text-left align-top text-sm font-['DM_Sans'] leading-5 text-white font-medium">
+          <div className="flex flex-row justify-start items-center gap-2 bg-brand-500/10 rounded-full px-4 py-2">
+            <div className="h-3 w-3 bg-brand-500 rounded-full" />
+            <span className="text-left align-top text-sm-medium text-white">
               Features
             </span>
           </div>
           <div className="flex flex-col justify-start items-center gap-6">
-            <h2 className="text-center align-top text-5xl md:text-5xl text-4xl font-['DM_Sans'] leading-[60px] md:leading-[60px] leading-[44px] text-white">
+            <h2 className="display-sm-semibold md:display-md-semibold lg:display-lg-semibold md:leading-[60%] text-white">
               Powerful event management
             </h2>
-            <p className="text-center align-top text-lg font-['DM_Sans'] leading-7 text-white max-w-[600px]">
+            <p className="text-center align-top text-lg-regular text-gray-cool-100 max-w-[600px]">
               Streamline your event workflow with integrated tools
             </p>
           </div>

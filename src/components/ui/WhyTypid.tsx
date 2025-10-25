@@ -3,12 +3,12 @@ import { CTAButton } from './CTAButton';
 export const WhyTypid = () => {
   return (
     <section className="py-16 px-8 bg-white">
-      <div className="flex flex-col md:flex-row justify-start items-start gap-10 max-w-[1280px] mx-auto">
-        <h2 className="text-left align-top text-4xl md:text-5xl font-['DM_Sans'] font-bold leading-[1.2] text-black flex-1 max-w-[500px] m-0">
+      <div className="flex flex-col md:flex-row justify-start items-start gap-0 md:gap-10 max-w-[1280px] mx-auto">
+        <h2 className="display-sm-semibold md:display-md-semibold lg:display-lg-semibold text-gray-cool-950 mb-0 md:mb-0 lg:mb-0 mr-[120px] mr-0 md:max-w-[400px] lg:max-w-[600px]">
           Why launch your events with Typid?
         </h2>
-        <div className="flex flex-col justify-start items-start gap-7 flex-1 mt-6 md:mt-0">
-          <p className="text-left align-top text-base md:text-lg font-['Roboto'] leading-[150%] text-black m-0">
+        <div className="flex flex-col justify-start items-start gap-7 flex-1 mt-6 mb-[100px] md:mt-0 w-full">
+          <p className="text-md-regular text-gray-cool-700 m-0">
             The smarter way to host, sell, and manage events — built for organizers 
             who want clarity, control, and creative freedom. Typid Events brings your 
             entire workflow together: from event creation and Tycket sales to analytics, 
@@ -26,7 +26,7 @@ export const WhyTypid = () => {
           <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Everything Connected
           </h3>
-          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+          <p className="font-['DM_Sans'] text-base leading-[150%] text-gray-cool-700 m-0">
             No more juggling between tools. Events, Tyckets, discounts, and analytics — all work seamlessly within one platform.
           </p>
         </div>
@@ -38,7 +38,7 @@ export const WhyTypid = () => {
           <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Designed for Organizers
           </h3>
-          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+          <p className="font-['DM_Sans'] text-base leading-[150%] text-gray-cool-700 m-0">
             Built for creators who value clarity and control. Every feature is made to simplify your workflow, not complicate it.
           </p>
         </div>
@@ -50,7 +50,7 @@ export const WhyTypid = () => {
           <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Real-Time Insights
           </h3>
-          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+          <p className="font-['DM_Sans'] text-base leading-[150%] text-gray-cool-700 m-0">
             Track every sale, attendee, and voucher redemption as it happens. Make decisions backed by live data.
           </p>
         </div>
@@ -62,7 +62,7 @@ export const WhyTypid = () => {
           <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Customizable Tycket Booth
           </h3>
-          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+          <p className="font-['DM_Sans'] text-base leading-[150%] text-gray-cool-700 m-0">
             Your brand deserves to stand out. Design your Tycket Booth the way you want — from colors to layout.
           </p>
         </div>
@@ -74,7 +74,7 @@ export const WhyTypid = () => {
           <h3 className="font-['DM_Sans'] text-xl md:text-2xl font-bold text-black m-0">
             Secure Payments with Typid Pay
           </h3>
-          <p className="font-['Roboto'] text-base leading-[150%] text-gray-600 m-0">
+          <p className="font-['DM_Sans'] text-base leading-[150%] text-gray-cool-700 m-0">
             Every transaction runs through Typid Pay, ensuring fast, safe, and transparent payment processing.
           </p>
         </div>

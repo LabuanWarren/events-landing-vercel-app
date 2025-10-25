@@ -31,7 +31,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({ badge, title, features
               <div className="flex flex-row justify-start items-center p-1">
                 <img src="/bullet-asterisk.svg" alt="Feature bullet" className="w-5 h-5 md:w-[22px] md:h-[22px]" />
               </div>
-              <div className="text-left text-base font-['DM_Sans'] leading-6 text-black">
+              <div className="text-left text-base font-['DM_Sans'] leading-6 text-gray-cool-700">
                 {feature}
               </div>
             </div>

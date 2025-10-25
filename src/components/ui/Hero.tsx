@@ -2,14 +2,14 @@ import { CTAButton } from './CTAButton';
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col justify-start items-center p-4 gap-20 h-[100vh]">
+    <div className="flex flex-col justify-start items-center p-2 md:p-4 lg:p-4 gap-20 h-[100vh]">
       <div className="rounded-3xl flex overflow-hidden flex-row md:flex-row flex-col justify-center bg-gradient-to-br from-[#F0F2FB] via-[#E9EAFF] to-[#E5E5EE] w-full h-full">
-        <div className="flex flex-col justify-center items-start p-12 md:p-12 gap-8 animate-fade-in-up">
-          <div className="flex max-w-[600px] flex-col justify-start items-start gap-6">
-            <h1 className="text-left text-7xl md:text-7xl text-5xl font-medium font-['DM_Sans'] leading-[1.2] text-black">
+        <div className="flex flex-col justify-center items-start p-4 md:p-8 lg:p-12 gap-8 animate-fade-in-up">
+          <div className="flex max-w-[600px] flex-col justify-start items-start gap-2 md:gap-4 lg:gap-6">
+            <h1 className="display-lg-semibold md:display-xl-semibold mt-24 lg:display-2xl-semibold text-left text-gray-cool-950">
               Run events that feel effortless
             </h1>
-            <p className="text-left text-lg font-['DM_Sans'] leading-7 text-gray-cool-700 max-w-[600px]">
+            <p className="text-lg text-gray-cool-700 max-w-[600px]">
             Events by Typid lets you create, manage, and customize your entire event experience in one dashboard.
             </p>
           </div>
@@ -21,12 +21,12 @@ export const Hero = () => {
           <img 
             src="/Dashboard.webp" 
             alt="Dashboard overview" 
-            className="absolute top-20 left-0 w-[723px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed"
+            className="absolute top-4 md:top-[200px] lg:top-20 left-0 w-[723px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed"
           />
           <img 
             src="/DashboardModal.webp" 
             alt="Modal overview" 
-            className="absolute bottom-0 left-0 w-[297px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed-more"
+            className="absolute bottom-0 left-0 w-[200px] md:w-[250px] lg:w-[297px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed-more"
           />
         </div>
       </div>

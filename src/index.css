@@ -1,5 +1,5 @@
 /** @import must precede all other statements */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Roboto:wght@400&display=swap");
 
 /* Tailwind directives - processed by PostCSS */
 @tailwind base;
@@ -39,18 +39,33 @@
     --radius: 0.5rem;
 
     /* Typid Brand Colors */
-    --brand-900: 191 95% 14%;
-    --brand-950: 191 97% 7%;
-    --brand-500: 186 100% 43%;
+    --brand-25 :180 100% 98%;
+    --brand-50 :180 100% 96%;
+    --brand-100 :184 100% 90%;
+    --brand-200 :185 100% 82%;
+    --brand-300 :180 97% 69%;
+    --brand-400 :186 91% 53%;
+    --brand-500: 187 100% 43%;
+    --brand-600: 190 97% 36%;
+    --brand-700: 191 87% 31%;
+    --brand-800: 193 74% 27%;
+    --brand-900: 195 84% 15%;
+    --brand-950: 195 92% 7%;
+    
     
     /* Gray Cool Scale */
+    --gray-cool-25: 226 24% 99%;
     --gray-cool-50: 226 24% 98%;
-    --gray-cool-200: 228 25% 90%;
-    --gray-cool-300: 226 18% 77%;
-    --gray-cool-400: 225 17% 60%;
-    --gray-cool-700: 229 20% 32%;
-    --gray-cool-800: 228 19% 25%;
-    --gray-cool-950: 229 23% 8%;
+    --gray-cool-100: 226 24% 95%;
+    --gray-cool-200: 226 24% 89%;
+    --gray-cool-300: 226 24% 78%;
+    --gray-cool-400: 226 24% 59%;
+    --gray-cool-500: 226 24% 48%;
+    --gray-cool-600: 226 24% 38%;
+    --gray-cool-700: 226 24% 33%;
+    --gray-cool-800: 226 24% 25%;
+    --gray-cool-900: 231 33% 10%;
+    --gray-cool-950: 231 33% 8%;
   }
 
   .dark {
