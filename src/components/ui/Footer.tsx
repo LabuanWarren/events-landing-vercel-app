@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-
 export const Footer = () => {
   return (
     <footer className="flex flex-col justify-start items-center py-20 px-16 md:py-20 md:px-16 py-12 px-8 gap-20 md:gap-20 gap-12 bg-[#011b24]">
@@ -15,9 +14,12 @@ export const Footer = () => {
             </div>
           </div>
           <nav className="flex flex-row md:flex-row flex-wrap justify-center items-start gap-8 md:gap-8 gap-6">
-            <a className="text-left align-top text-sm font-['DM_Sans'] leading-5 text-white no-underline cursor-pointer transition-colors duration-200 hover:text-[#0a7a94]">
+            <Link 
+              to="/about"
+              className="text-left align-top text-sm font-['DM_Sans'] leading-5 text-white no-underline cursor-pointer transition-colors duration-200 hover:text-[#0a7a94]"
+            >
               About us
-            </a>
+            </Link>
             <a className="text-left align-top text-sm font-['DM_Sans'] leading-5 text-white no-underline cursor-pointer transition-colors duration-200 hover:text-[#0a7a94]">
               Contact
             </a>

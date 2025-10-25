@@ -26,7 +26,7 @@ export const Hero = () => {
           <img 
             src="/DashboardModal.webp" 
             alt="Modal overview" 
-            className="absolute bottom-0 left-0 w-[200px] md:w-[250px] lg:w-[297px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed-more"
+            className="invisible md:visible lg:visible absolute bottom-0 left-0 w-[200px] md:w-[250px] lg:w-[297px] h-auto object-contain drop-shadow-[0_20px_60px_rgba(0,0,0,0.12)] animate-fade-in-delayed-more"
           />
         </div>
       </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { FeatureCard } from './FeatureCard';
 
 export const Features = () => {
@@ -104,7 +104,7 @@ export const Features = () => {
             </span>
           </div>
           <div className="flex flex-col justify-start items-center gap-6">
-            <h2 className="display-sm-semibold md:display-md-semibold lg:display-lg-semibold md:leading-[60%] text-white">
+            <h2 className="text-center display-sm-semibold md:display-md-semibold lg:display-lg-semibold md:leading-[60%] text-white">
               Powerful event management
             </h2>
             <p className="text-center align-top text-lg-regular text-gray-cool-100 max-w-[600px]">
