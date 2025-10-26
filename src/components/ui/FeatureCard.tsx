@@ -9,7 +9,7 @@ interface FeatureCardProps {
 
 export const FeatureCard: React.FC<FeatureCardProps> = ({ badge, title, features, image }) => {
   return (
-    <div className="rounded-3xl border border-[#dcdfe9] flex flex-col md:flex-row justify-start items-center bg-white shadow-[0_12px_16px_-4px_rgba(26,77,164,0.08),0_4px_6px_-2px_rgba(3,31,81,0.03),0_2px_2px_-1px_rgba(0,34,93,0.04)] overflow-hidden w-full max-w-[95vw] md:max-w-[1280px]">
+    <div className="rounded-3xl border border-gray-cool-200 flex flex-col md:flex-row justify-start items-center bg-white shadow-lg overflow-hidden w-full max-w-[95vw] md:max-w-[1280px]">
       <div className="flex flex-col justify-start items-start px-8 md:px-[4.5rem] p-6 md:p-8 gap-4 md:gap-6 flex-1">
         <div className="flex flex-col justify-start items-start gap-4 md:gap-8">
           <div className="flex flex-row justify-start items-center pr-8 md:pr-[4.5rem] gap-3 md:gap-6">
