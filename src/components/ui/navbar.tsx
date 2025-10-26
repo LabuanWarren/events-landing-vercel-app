@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { CTAButtonSmall } from './CTAButton';
-
 export const Navbar = () => {
   const [isInFeaturesSection, setIsInFeaturesSection] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -43,13 +43,13 @@ export const Navbar = () => {
         }`}>
           <nav className="flex flex-row justify-between items-center w-[full]">
             {/* Logo */}
-            <div className="flex items-center w-[182px]">
+            <Link to="/" className="flex items-center w-[182px] cursor-pointer">
               <img 
                 src={isInFeaturesSection ? "/typid-logo-white.svg" : "/typid-logo.svg"} 
                 alt="Typid Logo" 
                 className="h-7 w-auto transition-opacity duration-300" 
               />
-            </div>
+            </Link>
             
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex flex-row items-center gap-8">

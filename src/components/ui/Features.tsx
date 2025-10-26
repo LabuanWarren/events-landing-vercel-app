@@ -3,6 +3,7 @@ import { FeatureCard } from './FeatureCard';
 
 export const Features = () => {
   const [activeCardIndex, setActiveCardIndex] = useState(-1);
+  const [screenSize, setScreenSize] = useState<'mobile' | 'tablet' | 'desktop'>('desktop');
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
   const containerRef = useRef<HTMLDivElement>(null);
   const cardOffsetsRef = useRef<number[]>([]);
@@ -59,6 +60,36 @@ export const Features = () => {
       image: '/FeatureAffiliateCodes.webp'
     }
   ];
+
+  // Track screen size for responsive padding
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+      if (width < 768) {
+        setScreenSize('mobile');
+      } else if (width < 1024) {
+        setScreenSize('tablet');
+      } else {
+        setScreenSize('desktop');
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Get responsive padding values
+  const getPaddingTop = (index: number) => {
+    const paddingConfig = {
+      mobile: { base: 4.5, increment: 1 },
+      tablet: { base: 6.5, increment: 1.15 },
+      desktop: { base: 7, increment: 1.25 }
+    };
+    
+    const config = paddingConfig[screenSize];
+    return `${config.base + index * config.increment}rem`;
+  };
 
   useEffect(() => {
     const measure = () => {
@@ -133,7 +164,7 @@ export const Features = () => {
                 ref={el => cardRefs.current[index] = el}
                 className="flex flex-col justify-start items-center w-full sticky md:top-[2px] top-[10px] transition-transform duration-300 ease-in-out origin-top-center will-change-transform"
                 style={{
-                  paddingTop: `${0.5 + index * 1.25}rem`,
+                  paddingTop: getPaddingTop(index),
                   zIndex: 100 + index,
                   transform,
                 }}

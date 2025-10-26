@@ -1,18 +1,20 @@
 import React from 'react';
-
+import { Footer } from '../components/ui/Footer';
+import { Navbar } from '../components/ui/navbar';
 const Privacy: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white">
+      <Navbar />
       <main className="flex-1 px-6 py-12 md:px-12 md:py-16 max-w-4xl mx-auto w-full">
         <div className="mb-8">
-          <h1 className="display-xs-semibold md:display-sm-semibold lg:display-lg-semibold  mb-2 text-gray-cool-950">Privacy Policy</h1>
+          <h1 className="display-xs-semibold md:display-sm-semibold lg:display-lg-semibold  mb-2 mt-20 text-gray-cool-950">Privacy Policy</h1>
           <p className="text-lg-regular text-gray-cool-700">
             <strong>Last Updated:</strong> Mar 29, 2025
           </p>
         </div>
 
         <div className="border-t border-gray-200 mb-8"/>
-        
+
         <section className="mb-10">
           <h2 className="display-xs-semibold mb-4 text-gray-cool-950">1. Introduction</h2>
           <p className="text-lg-regular text-gray-cool-700  mb-6">
@@ -178,6 +180,7 @@ const Privacy: React.FC = () => {
           </p>
         </section>
       </main>
+      <Footer />
     </div>
   );
 };

@@ -18,7 +18,7 @@ export const Footer = () => {
               to="/about"
               className="text-left align-top text-sm font-['DM_Sans'] leading-5 text-white no-underline cursor-pointer transition-colors duration-200 hover:text-[#0a7a94]"
             >
-              About us
+              About Us
             </Link>
             <a className="text-left align-top text-sm font-['DM_Sans'] leading-5 text-white no-underline cursor-pointer transition-colors duration-200 hover:text-[#0a7a94]">
               Contact

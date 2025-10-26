@@ -1,11 +1,12 @@
 import { Footer } from '../components/ui/Footer';
-
+import { Navbar } from '../components/ui/navbar';
 const About = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white">
+      <Navbar />
       <main className="flex-1 px-6 py-12 md:px-12 md:py-16 max-w-4xl mx-auto w-full">
         <div className="mb-8">
-          <h1 className="display-xs-semibold md:display-sm-semibold lg:display-lg-semibold  mb-2 text-gray-cool-950">A Friendship Turned Creative Collaboration</h1>
+          <h1 className="display-xs-semibold md:display-sm-semibold lg:display-lg-semibold mt-20 mb-2 text-gray-cool-950">A Friendship Turned Creative Collaboration</h1>
         </div>
 
         <div className="border-t border-gray-200 mb-8"/>
