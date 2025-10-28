@@ -5,6 +5,7 @@ import { WhyTypid } from '../components/ui/WhyTypid';
 import { FAQ } from '../components/ui/FAQ';
 import { CTA } from '../components/ui/CTA';
 import { Footer } from '../components/ui/Footer';
+import { HowItWorks } from '../components/ui/HowItWorks';
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
         <Hero />
         <Features />
         <WhyTypid />
+        <HowItWorks />
         <FAQ />
       </main>
       <CTA />

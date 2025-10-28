@@ -133,17 +133,17 @@ export const Navbar = () => {
           {/* Mobile Navigation Links */}
           <div className="flex flex-col gap-6 mb-8">
             <a className={`text-lg font-['DM_Sans'] cursor-pointer transition-colors duration-200 ${
-              isInFeaturesSection ? 'text-white hover:text-[#00C1DB]' : 'text-black hover:text-[#0a7a94]'
+              isInFeaturesSection ? 'text-white hover:text-brand-600' : 'text-black hover:text-brand-600'
             }`}>
               Events
             </a>
             <a className={`text-lg font-['DM_Sans'] cursor-pointer transition-colors duration-200 ${
-              isInFeaturesSection ? 'text-white hover:text-[#00C1DB]' : 'text-black hover:text-[#0a7a94]'
+              isInFeaturesSection ? 'text-white hover:text-brand-600' : 'text-black hover:text-brand-600'
             }`}>
               Pricing
             </a>
             <a className={`text-lg font-['DM_Sans'] cursor-pointer transition-colors duration-200 ${
-              isInFeaturesSection ? 'text-white hover:text-[#00C1DB]' : 'text-black hover:text-[#0a7a94]'
+              isInFeaturesSection ? 'text-white hover:text-brand-600' : 'text-black hover:text-brand-600'
             }`}>
               Products
             </a>

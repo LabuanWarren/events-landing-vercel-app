@@ -3,7 +3,7 @@ export const Footer = () => {
   return (
     <footer className="flex flex-col justify-start items-center gap-12 bg-brand-950 pt-[40px] md:pt[80px] lg:pt-[120px]">
       <div className="flex flex-col justify-start items-center gap-20 md:gap-20 gap-12 w-full">
-        <div className="flex flex-col justify-start items-center gap-8">
+        <div className="flex flex-col justify-start items-center gap-20">
           <div className="flex flex-row justify-start items-start">
             <div className="h-auto w-full flex items-center justify-center rounded">
               <img 
