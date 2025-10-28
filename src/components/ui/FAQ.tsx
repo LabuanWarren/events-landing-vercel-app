@@ -57,7 +57,7 @@ export const FAQ = () => {
   };
 
   return (
-    <section className="py-20 px-16 md:py-20 md:px-16 py-12 px-8 bg-[#f8f9fb]">
+    <section className="py-20 px-16 md:py-20 md:px-16 py-12 px-8 bg-white">
       <div className="max-w-[800px] mx-auto">
         <h2 className="display-xs-semibold md:display-sm-semibold lg:display-lg-semibold text-center text-gray-cool-950 mb-10">
           Frequently Asked Questions

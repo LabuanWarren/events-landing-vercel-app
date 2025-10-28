@@ -34,7 +34,7 @@ export const HowItWorks = () => {
   ];
 
   return (
-    <section className="rounded-3xl flex flex-col relative bg-gradient-to-br from-[#F0F2FB] via-[#E9EAFF] to-[#E5E5EE] w-full px-6 py-10 md:px-10 md:py-16 lg:px-20 lg:py-24 overflow-hidden">
+    <section className="rounded-[2rem] flex flex-col relative bg-gradient-to-br from-[#F0F2FB] via-[#E9EAFF] to-[#E5E5EE] w-full px-6 py-10 md:px-10 md:py-16 lg:px-20 lg:py-24 overflow-hidden">
       {/* Gradient Circle - positioned below cards but above background */}
       <img 
         src="/gradient-circle.svg" 
@@ -65,7 +65,7 @@ export const HowItWorks = () => {
         {/* Intro Card - No background */}
         <div className="flex flex-col gap-4 flex-1 min-w-[280px] md:min-w-[320px] basis-full md:basis-[calc(33.333%-16px)]">
           <h3 className="display-xs-semibold text-gray-cool-950">
-            Less work. More moments that matter.
+          Smooth process. Powerful results.
           </h3>
           <p className="text-md-regular text-gray-cool-700">
             From planning to the final QR scan, every step flows seamlessly with Typid.

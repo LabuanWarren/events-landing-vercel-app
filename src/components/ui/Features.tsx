@@ -127,7 +127,7 @@ export const Features = () => {
   return (
     <section className="rounded-[2rem] md:rounded-[2rem] rounded-[2rem] flex flex-col justify-start items-center py-28 px-16 md:py-28 md:px-16 py-16 px-8 gap-20 bg-gradient-to-b from-[#011C25] to-[#00C1DB]">
       <div ref={containerRef} className="flex flex-col justify-start items-center max-w-[1200px] w-full">
-        <div className="flex flex-col justify-start items-center gap-4 mb-16">
+        <div className="sticky  top-[200px] flex flex-col justify-start items-center gap-4 mb-16">
           <div className="flex flex-row justify-start items-center gap-2 bg-brand-500/10 rounded-full pl-[12px] pr-4 py-2">
             <div className="h-3 w-3 bg-brand-500 rounded-full" />
             <span className="text-left align-top text-sm-medium text-white">
