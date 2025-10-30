@@ -13,7 +13,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({ badge, title, features
       <div className="flex flex-col justify-start items-start px-8 md:px-[4.5rem] p-6 md:p-8 gap-4 md:gap-6 flex-1">
         <div className="flex flex-col justify-start items-start gap-4 md:gap-8">
           <div className="flex flex-row justify-start items-center pr-8 md:pr-[4.5rem] gap-3 md:gap-6">
-            <div className="text-left text-xs font-['DM_Sans'] tracking-[3px] md:tracking-[4.8px] leading-[18px] text-black">
+            <div className="text-left text-xs font-['DM_Sans'] tracking-[3px] md:tracking-[4.8px] leading-[18px] text-gray-cool-700">
               {badge}
             </div>
             <div className="flex flex-row justify-start items-center gap-1.5 md:gap-2.5">
@@ -21,17 +21,17 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({ badge, title, features
               <div className="h-3 w-3 border border-[#7d89af] rounded-full" />
             </div>
           </div>
-          <div className="text-left text-3xl md:text-4xl font-['DM_Sans'] tracking-[-0.5px] md:tracking-[-0.72px] leading-9 md:leading-[44px] text-black font-bold">
+          <div className="display-md-semibold text-gray-cool-950 ">
             {title}
           </div>
         </div>
         <div className="flex flex-col justify-start items-start gap-2 md:gap-3">
           {features.map((feature, index) => (
             <div key={index} className="flex flex-row justify-start items-start gap-2 md:gap-3">
-              <div className="flex flex-row justify-start items-center p-1">
+              <div className="flex flex-row justify-start items-center p-[2px]">
                 <img src="/bullet-asterisk.svg" alt="Feature bullet" className="w-5 h-5 md:w-[22px] md:h-[22px]" />
               </div>
-              <div className="text-left text-base font-['DM_Sans'] leading-6 text-gray-cool-700">
+              <div className="text-md-regular text-gray-cool-700">
                 {feature}
               </div>
             </div>
@@ -40,7 +40,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({ badge, title, features
       </div>
       <div className="md:flex hidden flex-col justify-start items-start gap-2 md:gap-3">
         {Array(22).fill(0).map((_, i) => (
-          <div key={i} className="h-[13px] md:h-[17px] w-px bg-[#dcdfe9]" />
+          <div key={i} className="h-[13px] md:h-[17px] w-px bg-white" />
         ))}
       </div>
       <img 

@@ -11,18 +11,18 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, isOpen, onClick }) 
   return (
     <div 
       onClick={onClick}
-      className="bg-white rounded-xl p-6 cursor-pointer shadow-sm transition-all duration-200 hover:shadow-[0_4px_12px_rgba(0,0,0,0.1)]"
+      className="bg-white rounded-xl p-6 cursor-pointer shadow-sm transition-all duration-200 hover:shadow-md"
     >
       <div className="flex justify-between items-center">
-        <h3 className="font-['DM_Sans'] text-lg font-semibold text-black m-0">
+        <h3 className="text-lg-semibold text-gray-cool-950 m-0">
           {question}
         </h3>
-        <span className="text-2xl text-[#0a7a94] font-bold">
+        <span className="text-[36px] text-brand-600 font-regular">
           {isOpen ? '×' : '+'}
         </span>
       </div>
       {isOpen && (
-        <p className="font-['Roboto'] text-base leading-[1.6] text-gray-600 mt-4 mb-0 pt-4 border-t border-gray-100">
+        <p className="text-md-medium text-gray-cool-700 mt-4 mb-0 pt-4 border-t border-gray-cool-100">
           {answer}
         </p>
       )}

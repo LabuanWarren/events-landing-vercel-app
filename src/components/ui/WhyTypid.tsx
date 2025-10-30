@@ -2,7 +2,7 @@ import { CTAButton } from './CTAButton';
 
 export const WhyTypid = () => {
   return (
-    <section className="py-16 px-8 bg-white">
+    <section className="px-6 py-10 md:px-10 md:py-16 lg:px-20 lg:py-24 bg-white">
       <div className="flex flex-col md:flex-row justify-start items-start gap-0 md:gap-10 max-w-[1280px] mx-auto">
         <h2 className="display-sm-semibold md:display-md-semibold lg:display-lg-semibold text-gray-cool-950 mb-0 md:mb-0 lg:mb-0 mr-[120px] mr-0 md:max-w-[400px] lg:max-w-[600px]">
           Why launch your events with Typid?
